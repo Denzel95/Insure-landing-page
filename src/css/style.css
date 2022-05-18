@@ -42,6 +42,10 @@ body {
   cursor: pointer;
 }
 
+.paragraph {
+  color: hsl(273deg, 4%, 51%);
+}
+
 .header {
   max-width: 37.5rem;
 }
@@ -83,8 +87,18 @@ nav {
   align-items: center;
 }
 
+.different {
+  padding-top: 12rem;
+  padding-bottom: 3rem;
+}
+
 .different__title {
   text-align: center;
+}
+
+.different__inner {
+  gap: 6rem;
+  padding: 9rem 0;
 }
 
 .feature__img {
@@ -98,7 +112,7 @@ nav {
 
 .feature__paragraph {
   margin-top: 2.4rem;
-  width: 28rem;
+  max-width: 33rem;
   text-align: center;
 }
 
