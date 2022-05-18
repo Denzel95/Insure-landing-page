@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -12,6 +14,8 @@ body {
   overflow-x: hidden;
   width: 100vw;
   font-size: 1.6rem;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,6 +24,22 @@ body {
 .section {
   padding: 0 2.5rem;
   margin: 0 auto;
+}
+
+.title {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 4rem;
+  color: hsl(270deg, 9%, 17%);
+  text-align: center;
+  line-height: 1;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 3rem;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
 .header {
@@ -49,6 +69,37 @@ nav {
 .image-container,
 .plans {
   width: 100%;
+}
+
+.plans {
+  display: flex;
+  flex-direction: column;
+  padding: 7rem 0;
+}
+
+.feature, .different__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.different__title {
+  text-align: center;
+}
+
+.feature__img {
+  max-width: 8.6rem;
+}
+
+.feature__title {
+  font-size: 2.4rem;
+  margin-top: 4rem;
+}
+
+.feature__paragraph {
+  margin-top: 2.4rem;
+  width: 28rem;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

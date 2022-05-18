@@ -27,3 +27,9 @@ nav {
 .plans {
   width: 100%;
 }
+
+.plans {
+  display: flex;
+  flex-direction: column;
+  padding: 7rem 0;
+}
