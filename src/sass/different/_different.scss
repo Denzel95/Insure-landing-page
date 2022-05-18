@@ -1,4 +1,4 @@
-%flexColumnCenterSpaceBet {
+%flexColumnACenter {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,14 +14,14 @@
 }
 
 .different__inner {
-  @extend %flexColumnCenterSpaceBet;
+  @extend %flexColumnACenter;
   gap: 6rem;
 
   padding: 9rem 0;
 }
 
 .feature {
-  @extend %flexColumnCenterSpaceBet;
+  @extend %flexColumnACenter;
 }
 
 .feature__img {
@@ -37,4 +37,23 @@
   margin-top: 2.4rem;
   max-width: 33rem;
   text-align: center;
+}
+
+.about {
+  height: 35rem;
+  width: 100%;
+
+  background-color: $Dark_Violet;
+  background-image: url("/src/images/bg-pattern-how-we-work-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: right top;
+
+  @extend %flexColumnACenter;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.about__title {
+  color: $Very_Light_Gray;
+  width: 15ch;
 }
