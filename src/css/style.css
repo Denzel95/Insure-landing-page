@@ -44,10 +44,15 @@ main {
   display: inline-block;
   padding: 1rem 3rem;
   text-transform: uppercase;
-  cursor: pointer;
   background-color: transparent;
   border: white solid 2px;
   color: white;
+  transition: all 0.3s;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: white;
+  color: hsl(256deg, 26%, 20%);
 }
 
 .paragraph {
@@ -229,6 +234,11 @@ nav {
   font-weight: 700;
 }
 
+@media screen and (min-width: 600px) {
+  .image-container {
+    background-image: url("../images/image-intro-desktop.jpg");
+  }
+}
 @media screen and (min-width: 800px) {
   .section {
     padding: 0 5rem;
