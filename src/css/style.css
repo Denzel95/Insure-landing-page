@@ -99,7 +99,7 @@ nav {
   background-color: hsl(256deg, 26%, 20%);
 }
 
-.feature, .different__inner {
+.about, .feature, .different__inner {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -132,6 +132,22 @@ nav {
   margin-top: 2.4rem;
   max-width: 33rem;
   text-align: center;
+}
+
+.about {
+  height: 35rem;
+  width: 100%;
+  background-color: hsl(256deg, 26%, 20%);
+  background-image: url("/src/images/bg-pattern-how-we-work-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.about__title {
+  color: hsl(0deg, 0%, 98%);
+  width: 15ch;
 }
 
 /*# sourceMappingURL=style.css.map */
