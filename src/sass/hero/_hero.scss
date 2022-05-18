@@ -1,5 +1,4 @@
 .header {
-  max-width: 37.5rem;
 }
 
 nav {
@@ -26,6 +25,13 @@ nav {
 .intro {
   width: 100%;
   height: auto;
+}
+
+.image-container {
+  background-image: url("../images/image-intro-mobile.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .heading {
@@ -66,48 +72,4 @@ nav {
   right: 0px;
   bottom: -34%;
   width: 10rem;
-}
-
-.footer {
-  min-width: 37.5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 3rem;
-  background-color: $Very_Light_Gray;
-}
-
-.footer .logo {
-  margin-top: 7rem;
-}
-
-.social {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-  margin-top: 3rem;
-  margin-bottom: 4rem;
-}
-
-.links {
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.footer-nav {
-  font-size: 1.4rem;
-  color: $Dark_Grayish_Violet;
-}
-
-.links ul {
-  list-style: none;
-  margin: 2rem 0;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-.links ul li {
-  font-size: 1.4rem;
-  font-weight: 700;
 }

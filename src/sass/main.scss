@@ -2,7 +2,9 @@
 @import "_general";
 @import "hero/_hero";
 @import "different/_different.scss";
+@import "footer/_footer.scss";
 
 // media queries
 @import "hero/heroQuery";
 @import "different/diferentMedia";
+@import "footer/_footerMedia.scss";
