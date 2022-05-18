@@ -1,0 +1,21 @@
+.header {
+  max-width: 37.5rem;
+}
+
+nav {
+  padding: 1rem;
+  min-height: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 50%;
+  cursor: pointer;
+}
+
+.menu {
+  cursor: pointer;
+}
