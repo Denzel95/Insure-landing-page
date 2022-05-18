@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+@media screen {
+  .hero {
+    color: red;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
