@@ -11,6 +11,19 @@
 
 .different__title {
   text-align: center;
+
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 15rem;
+    border-bottom: 1px solid $Dark_Violet;
+
+    top: 0;
+    left: 0;
+    transform: translate(66%, -40px);
+  }
 }
 
 .different__inner {
@@ -42,6 +55,7 @@
 .about {
   height: 35rem;
   width: 100%;
+  padding: 0 2.5rem;
 
   background-color: $Dark_Violet;
   background-image: url("/src/images/bg-pattern-how-we-work-mobile.svg");

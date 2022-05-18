@@ -1,0 +1,48 @@
+@media screen and (min-width: 800px) {
+  .section {
+    padding: 0 5rem;
+  }
+
+  .different__title {
+    text-align: left;
+
+    &::after {
+      transform: translate(0%, -40px);
+    }
+  }
+
+  .different__inner {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .feature {
+    align-items: flex-start;
+  }
+
+  .feature__paragraph {
+    text-align: left;
+  }
+
+  .about {
+    flex-direction: row;
+    justify-content: space-around;
+
+    background-image: url("../images/bg-pattern-how-we-work-desktop.svg");
+    background-position: center right;
+    background-size: contain;
+  }
+
+  .about__title {
+    width: fit-content;
+    font-size: 5rem;
+    max-width: 22ch;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .section {
+    padding: 0 8rem;
+  }
+}
