@@ -4,7 +4,7 @@
 
 nav {
   padding: 0 2rem;
-  min-height: 5rem;
+  min-height: 8rem;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -49,6 +49,10 @@ nav {
   // background-image: url(/src/images/bg-pattern-intro-right-mobile.svg);
   // background-repeat: no-repeat;
   // background-position: right bottom;
+}
+
+.image-container {
+  height: 45rem;
 }
 
 .intro-img {
