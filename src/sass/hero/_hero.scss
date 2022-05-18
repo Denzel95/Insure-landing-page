@@ -61,7 +61,8 @@ nav {
   height: 45rem;
 }
 
-.intro-img {
+.intro-img,
+.intro-img-desktop {
   position: absolute;
   top: 0;
   left: 0;
@@ -72,4 +73,18 @@ nav {
   right: 0px;
   bottom: -34%;
   width: 10rem;
+}
+
+.intro-img {
+  display: block;
+  &-desktop {
+    display: none;
+  }
+}
+
+.intro-btm {
+  display: block;
+  &-desktop {
+    display: none;
+  }
 }
