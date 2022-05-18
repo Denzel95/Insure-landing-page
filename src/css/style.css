@@ -101,6 +101,64 @@ nav {
   gap: 3rem;
   padding: 7rem 0;
   background-color: hsl(256deg, 26%, 20%);
+  position: relative;
+}
+
+.intro-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.intro-btm {
+  position: absolute;
+  right: 0px;
+  bottom: -34%;
+  width: 10rem;
+}
+
+.footer {
+  min-width: 37.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+  background-color: hsl(0deg, 0%, 98%);
+}
+
+.footer .logo {
+  margin-top: 7rem;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.links {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.footer-nav {
+  font-size: 1.4rem;
+  color: hsl(273deg, 4%, 51%);
+}
+
+.links ul {
+  list-style: none;
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.links ul li {
+  font-size: 1.4rem;
+  font-weight: 700;
 }
 
 .about, .feature, .different__inner {

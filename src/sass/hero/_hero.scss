@@ -45,8 +45,65 @@ nav {
   gap: 3rem;
   padding: 7rem 0;
   background-color: $Dark_Violet;
-  // background-image: url(/src/images/bg-pattern-intro-left-mobile.svg),
-  //   url(/src/images/bg-pattern-intro-right-mobile.svg);
-  // background-repeat: no-repeat, no-repeat;
-  // background-position: left top, right bottom;
+  position: relative;
+  // background-image: url(/src/images/bg-pattern-intro-right-mobile.svg);
+  // background-repeat: no-repeat;
+  // background-position: right bottom;
+}
+
+.intro-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.intro-btm {
+  position: absolute;
+  right: 0px;
+  bottom: -34%;
+  width: 10rem;
+}
+
+.footer {
+  min-width: 37.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+  background-color: $Very_Light_Gray;
+}
+
+.footer .logo {
+  margin-top: 7rem;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.links {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.footer-nav {
+  font-size: 1.4rem;
+  color: $Dark_Grayish_Violet;
+}
+
+.links ul {
+  list-style: none;
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.links ul li {
+  font-size: 1.4rem;
+  font-weight: 700;
 }
