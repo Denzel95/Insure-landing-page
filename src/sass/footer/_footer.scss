@@ -39,4 +39,9 @@
 .links ul li {
   font-size: 1.4rem;
   font-weight: 700;
+
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
 }

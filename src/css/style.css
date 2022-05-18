@@ -233,8 +233,47 @@ nav {
   font-size: 1.4rem;
   font-weight: 700;
 }
+.links ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
 
 @media screen and (min-width: 600px) {
+  .image-container {
+    background-image: url("../images/image-intro-desktop.jpg");
+  }
+}
+@media screen and (min-width: 1000px) {
+  .hero {
+    position: relative;
+  }
+
+  .image-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 36rem;
+    height: 44rem;
+    z-index: 1;
+  }
+
+  .plans {
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 10%;
+    width: 100vw;
+  }
+
+  .description {
+    text-align: left;
+    width: 56ch;
+  }
+
+  .heading {
+    text-align: left;
+    width: 15ch;
+  }
+
   .image-container {
     background-image: url("../images/image-intro-desktop.jpg");
   }
