@@ -3,7 +3,7 @@
 }
 
 nav {
-  //   padding: 1rem;
+  padding: 0 2rem;
   min-height: 5rem;
   width: 100%;
   display: flex;
@@ -23,13 +23,30 @@ nav {
   width: 100%;
 }
 
-.image-container,
-.plans {
+.intro {
   width: 100%;
+  height: auto;
+}
+
+.heading {
+  color: white;
+}
+
+.description {
+  width: 85%;
+  text-align: center;
+  color: $Very_Light_Gray;
 }
 
 .plans {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 3rem;
   padding: 7rem 0;
+  background-color: $Dark_Violet;
+  // background-image: url(/src/images/bg-pattern-intro-left-mobile.svg),
+  //   url(/src/images/bg-pattern-intro-right-mobile.svg);
+  // background-repeat: no-repeat, no-repeat;
+  // background-position: left top, right bottom;
 }

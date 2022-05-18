@@ -38,6 +38,7 @@ main {
   color: $Very_Dark_Violet;
   text-align: center;
   line-height: 1;
+  width: 80%;
 }
 
 .btn {
@@ -45,6 +46,9 @@ main {
   padding: 1rem 3rem;
   text-transform: uppercase;
   cursor: pointer;
+  background-color: transparent;
+  border: white solid 2px;
+  color: white;
 }
 
 .paragraph {
