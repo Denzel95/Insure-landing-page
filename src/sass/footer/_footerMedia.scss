@@ -1,0 +1,23 @@
+@media screen and (min-width: 600px) {
+  .footer {
+    display: flex;
+    padding: 0 2.5rem;
+  }
+
+  .logo-social {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 2.5rem;
+  }
+
+  .footer .logo {
+    margin-top: 0;
+  }
+
+  .links-container {
+    width: 70%;
+    padding: 0 2.5rem;
+    flex-direction: row;
+  }
+}

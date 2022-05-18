@@ -199,12 +199,6 @@ nav {
   background-color: hsl(0deg, 0%, 98%);
 }
 
-.logo-social {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .footer .logo {
   margin-top: 7rem;
 }
@@ -215,12 +209,6 @@ nav {
   gap: 2rem;
   margin-top: 3rem;
   margin-bottom: 4rem;
-}
-
-.links-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .links {
@@ -338,23 +326,6 @@ nav {
 @media screen and (min-width: 600px) {
   .footer {
     display: flex;
-    padding: 0 2.5rem;
-  }
-
-  .logo-social {
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    padding: 0 2.5rem;
-  }
-
-  .footer .logo {
-    margin-top: 0;
-  }
-
-  .links-container {
-    width: 70%;
-    padding: 0 2.5rem;
     flex-direction: row;
   }
 }
