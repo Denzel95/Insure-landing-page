@@ -4,12 +4,20 @@
   align-items: center;
 }
 
+.different {
+  padding-top: 12rem;
+  padding-bottom: 3rem;
+}
+
 .different__title {
   text-align: center;
 }
 
 .different__inner {
   @extend %flexColumnCenterSpaceBet;
+  gap: 6rem;
+
+  padding: 9rem 0;
 }
 
 .feature {
@@ -27,6 +35,6 @@
 
 .feature__paragraph {
   margin-top: 2.4rem;
-  width: 28rem;
+  max-width: 33rem;
   text-align: center;
 }
