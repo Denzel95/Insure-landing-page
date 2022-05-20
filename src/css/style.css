@@ -293,6 +293,7 @@ nav {
 
   .image-container {
     background-image: url("../images/image-intro-desktop.jpg");
+    transform: translate(-2%, 10%);
   }
 
   .intro-img {
@@ -314,6 +315,23 @@ nav {
     transform: translateY(-14%);
   }
 }
+@media screen and (min-width: 1200px) {
+  .image-container {
+    transform: translate(-20%, 10%);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .image-container {
+    transform: translate(-30%, 10%);
+  }
+}
+@media screen and (min-width: 1400px) {
+  .image-container {
+    transform: translate(-50%, 10%);
+    width: 34rem;
+    height: 45rem;
+  }
+}
 @media screen and (min-width: 1700px) {
   .plans {
     min-height: 60rem;
@@ -324,16 +342,17 @@ nav {
   }
 
   .image-container {
+    transform: translate(-80%, 10%);
     width: 54rem;
     height: 65rem;
-    transform: translate(-80%, 10%);
+  }
+}
+@media screen and (min-width: 1000px) {
+  .section {
+    padding: 0 10%;
   }
 }
 @media screen and (min-width: 800px) {
-  .section {
-    padding: 0 5rem;
-  }
-
   .different__title {
     text-align: left;
   }
@@ -367,11 +386,6 @@ nav {
     font-size: 5rem;
     max-width: 22ch;
     text-align: left;
-  }
-}
-@media screen and (min-width: 1400px) {
-  .section {
-    padding: 0 8rem;
   }
 }
 

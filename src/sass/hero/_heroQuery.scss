@@ -37,6 +37,7 @@
 
   .image-container {
     background-image: url("../images/image-intro-desktop.jpg");
+    transform: translate(-2%, 10%);
   }
 
   .intro-img {
@@ -59,6 +60,26 @@
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .image-container {
+    transform: translate(-20%, 10%);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .image-container {
+    transform: translate(-30%, 10%);
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .image-container {
+    transform: translate(-50%, 10%);
+    width: 34rem;
+    height: 45rem;
+  }
+}
+
 @media screen and (min-width: 1700px) {
   .plans {
     min-height: 60rem;
@@ -69,8 +90,8 @@
   }
 
   .image-container {
+    transform: translate(-80%, 10%);
     width: 54rem;
     height: 65rem;
-    transform: translate(-80%, 10%);
   }
 }
