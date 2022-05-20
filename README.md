@@ -1,5 +1,7 @@
 # Frontend Mentor - Insure landing page
-# LIVE URL : https://denzel95.github.io/Insure-landing-page/
+
+# [LIVE URL](https://denzel95.github.io/Insure-landing-page/)
+
 ![Design preview for the Insure landing page coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
