@@ -34,7 +34,9 @@
     position: absolute;
     top: 0;
     right: 0;
-    transform: translateY(50%);
+    transform: translateY(25%);
+    width: fit-content;
+    z-index: 1;
   }
 
   .nav-link {
@@ -44,6 +46,10 @@
     text-decoration: none;
     margin-right: 1rem;
     font-size: 1.4rem;
+
+    &:hover {
+      color: $Dark_Violet;
+    }
   }
 }
 

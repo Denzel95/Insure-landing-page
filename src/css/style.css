@@ -8,6 +8,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -60,6 +61,11 @@ main {
   color: hsl(273deg, 4%, 51%);
 }
 
+.btn-logo {
+  border: none;
+  background-color: transparent;
+}
+
 nav {
   padding: 0 2rem;
   min-height: 8rem;
@@ -103,7 +109,7 @@ nav {
   transform: translate(0%, 80px);
   background-image: url(/src/images/bg-pattern-mobile-nav.svg);
   background-repeat: no-repeat;
-  background-position: 0 100%;
+  background-position: 4px 100%;
 }
 
 .navigation-mobile .nav-link {
@@ -362,7 +368,9 @@ nav {
     position: absolute;
     top: 0;
     right: 0;
-    transform: translateY(50%);
+    transform: translateY(25%);
+    width: fit-content;
+    z-index: 1;
   }
 
   .nav-link {
@@ -372,6 +380,9 @@ nav {
     text-decoration: none;
     margin-right: 1rem;
     font-size: 1.4rem;
+  }
+  .nav-link:hover {
+    color: hsl(256deg, 26%, 20%);
   }
 }
 @media screen and (min-width: 900px) {
@@ -503,7 +514,6 @@ nav {
 @media screen and (min-width: 600px) {
   .footer {
     display: flex;
-    padding: 0 2.5rem;
   }
 
   .logo-social {

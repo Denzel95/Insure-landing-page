@@ -1,4 +1,6 @@
-.header {
+.btn-logo {
+  border: none;
+  background-color: transparent;
 }
 
 nav {
@@ -43,7 +45,7 @@ nav {
   transform: translate(0%, 80px);
   background-image: url(/src/images/bg-pattern-mobile-nav.svg);
   background-repeat: no-repeat;
-  background-position: 0 100%;
+  background-position: 4px 100%;
 }
 
 .navigation-mobile .nav-link {
