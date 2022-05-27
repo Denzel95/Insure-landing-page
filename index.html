@@ -16,10 +16,28 @@
   </head>
   <body>
     <header class="header">
-      <nav>
-        <img src="./src/images/logo.svg" class="logo" alt="logo" />
-        <img src="./src/images/icon-hamburger.svg" class="menu" alt="menu" />
+      <nav class="mobile-nav">
+        <a href="#" class="logo-icon">
+        <img src="./src/images/logo.svg" class="logo" alt="logo" /></a>
+        <button class="btn-logo"><img src="./src/images/icon-hamburger.svg" class="menu" alt="menu" />
+                                  <img src="./src/images/icon-close.svg" class="close" alt="close"></button>
+        
       </nav>
+
+      <nav class="main-nav">
+        <a href="#" class="nav-link">How we work</a>
+        <a href="#" class="nav-link">Blog</a>
+        <a href="#" class="nav-link">Account</a>
+        <button class="btn-view-plan">View plans</button>
+      </nav>
+
+      <nav class="navigation-mobile hidden">
+        <a href="#" class="nav-link nav-top">How we work</a>
+        <a href="#" class="nav-link">Blog</a>
+        <a href="#" class="nav-link">Account</a>
+        <button class="btn-view-plan">View plans</button>
+      </nav>
+      
       <section class="hero">
         <div class="image-container">
           
@@ -107,17 +125,19 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer section">
       <div class="logo-social">
       <img src="./src/images/logo.svg" class="logo" alt="logo" />
       <div class="social">
-        <img src="./src/images/icon-facebook.svg" alt="fb" />
+        <img src="./src/images/icon-facebook.svg" class="fb" alt="fb" />
         <img src="./src/images/icon-twitter.svg" alt="twitter" />
         <img src="./src/images/icon-pinterest.svg" alt="pinterest" />
         <img src="./src/images/icon-instagram.svg" alt="instagram" />
       </div>
+      
     </div>
 
+    
       <div class="links-container">
       <div class="links">
         <h2 class="footer-nav">Our Company</h2>
@@ -152,9 +172,11 @@
           <li>Licences</li>
       </div>
     </div>
+  
    
     </div>
     </footer>
           
   </body>
+  <script src="script.js"></script>
 </html>

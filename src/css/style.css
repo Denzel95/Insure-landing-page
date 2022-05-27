@@ -69,6 +69,63 @@ nav {
   align-items: center;
 }
 
+.btn-view-plan {
+  display: inline-block;
+  padding: 1rem 3rem;
+  text-transform: uppercase;
+  background-color: white;
+  border: black solid 2px;
+  color: black;
+  transition: ease-in-out 0.3s;
+}
+
+.btn-view-plan:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.main-nav {
+  display: none;
+}
+
+.navigation-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+  position: absolute;
+  width: 100%;
+  height: 45rem;
+  background-color: hsl(256deg, 26%, 20%);
+  top: 0;
+  right: 0;
+  transform: translate(0%, 80px);
+  background-image: url(/src/images/bg-pattern-mobile-nav.svg);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+}
+
+.navigation-mobile .nav-link {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.navigation-mobile .nav-top {
+  margin-top: 4rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.close {
+  cursor: pointer;
+  display: none;
+}
+
 .logo {
   cursor: pointer;
 }
@@ -214,6 +271,8 @@ nav {
   flex-direction: column;
   align-items: center;
   background-color: hsl(0deg, 0%, 98%);
+  background-image: url(/src/images/bg-pattern-footer-mobile.svg);
+  background-repeat: no-repeat;
 }
 
 .logo-social {
@@ -271,6 +330,55 @@ nav {
   .image-container {
     background-image: url("../images/image-intro-desktop.jpg");
   }
+
+  .footer {
+    display: flex;
+    background-image: url(/src/images/bg-pattern-footer-desktop.svg);
+    background-repeat: no-repeat;
+  }
+
+  .logo-social {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .footer .logo {
+    margin-top: 0;
+  }
+
+  .links-container {
+    width: 100%;
+    flex-direction: row;
+  }
+
+  .btn-logo {
+    display: none;
+  }
+
+  .main-nav {
+    display: block;
+    padding-right: 3rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateY(50%);
+  }
+
+  .nav-link {
+    font-weight: 700;
+    color: hsl(273deg, 4%, 51%);
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 1rem;
+    font-size: 1.4rem;
+  }
+}
+@media screen and (min-width: 900px) {
+  .links-container {
+    justify-content: center;
+    gap: 8rem;
+  }
 }
 @media screen and (min-width: 1000px) {
   .hero {
@@ -324,6 +432,15 @@ nav {
     top: 0;
     right: 0;
     transform: translateY(-14%);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .logo-icon {
+    padding-left: 10rem;
+  }
+
+  .main-nav {
+    padding-right: 10rem;
   }
 }
 @media screen and (min-width: 1700px) {
@@ -404,7 +521,7 @@ nav {
   }
 
   .links-container {
-    width: 70%;
+    width: 100%;
     padding: 0 2.5rem;
     flex-direction: row;
   }

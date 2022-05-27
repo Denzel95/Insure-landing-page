@@ -3,7 +3,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: $Very_Light_Gray;
+  background-color: hsl(0deg, 0%, 98%);
+  background-image: url(/src/images/bg-pattern-footer-mobile.svg);
+  background-repeat: no-repeat;
 }
 
 .logo-social {
